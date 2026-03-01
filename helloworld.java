@@ -17,6 +17,6 @@ public class helloworld {
         int n = rand.nextInt(10);
 
         String[] names = { "Esko", "Pena", "Janne", "Roosa", "Pete", "Kalle", "Johanna", "Julius", "Juuso", "Katja" };
-
+        return names[n];
     }
 }

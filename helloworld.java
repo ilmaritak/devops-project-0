@@ -14,5 +14,7 @@ public class helloworld {
 
     public static String Randomizer() {
         Random rand = new Random();
+        int n = rand.nextInt(10) + 1;
+
     }
 }

@@ -1,3 +1,5 @@
+package utils;
+
 /**
  * Utility class that provides simplified wrapper methods
  * around {@link System#out} printing operations.
@@ -7,7 +9,7 @@ public class Prints {
      * Prints a newline to the standard output.
      * Equivalent to {@link System#out#println()}.
      */
-    public void Println() {
+    public static void println() {
         System.out.println();
     }
 
@@ -17,7 +19,7 @@ public class Prints {
      *
      * @param s the string to be printed
      */
-    public void Println(String s) {
+    public static void println(String s) {
         System.out.println(s);
     }
 
@@ -27,7 +29,7 @@ public class Prints {
      *
      * @param s the string to be printed
      */
-    public void Print(String s) {
+    public static void print(String s) {
         System.out.print(s);
     }
 }

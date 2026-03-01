@@ -13,6 +13,11 @@ public class helloworld {
         System.out.println("Hello, " + Randomizer());
     }
 
+    /**
+     * Method that returns one of 10 names randomly.
+     *
+     * @return returns a random name String.
+     */
     public static String Randomizer() {
         Random rand = new Random();
         int n = rand.nextInt(10);

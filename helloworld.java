@@ -10,6 +10,7 @@ public class helloworld {
     public static void Printtaaja() {
         String name = "Esko";
         System.out.println("Hello, " + name); // what is printed
+        System.out.println("Hello, " + Randomizer());
     }
 
     public static String Randomizer() {

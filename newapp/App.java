@@ -1,5 +1,5 @@
 /**
- * Simple DevOps demo application.
+ * Simple DevOps application.
  */
 package com.example;
 

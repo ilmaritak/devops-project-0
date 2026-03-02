@@ -18,4 +18,8 @@ public class App {
         }
         return "Hello, " + name + "!";
     }
+
+    public static String farewell(String name) {
+        return "Goodbye, " + name + "!";
+    }
 }

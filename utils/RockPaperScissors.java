@@ -21,5 +21,18 @@ public class RockPaperScissors {
         System.out.println("Welcome to the game of rock paper sciccors!");
         System.out.println("Type eiher <rock>, <paper> or <scissors>");
 
+        String input = c.readLine();
+        int yourIndex = 0;
+
+        switch (input) {
+            case "rock":
+                yourIndex = rockIndex;
+                break;
+            case "paper":
+                yourIndex = paperIndex;
+            default:
+                yourIndex = scissorIndex;
+                break;
+        }
     }
 }

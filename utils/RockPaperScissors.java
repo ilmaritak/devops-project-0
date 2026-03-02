@@ -3,6 +3,9 @@ package utils;
 import java.io.Console;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * This class contains rock paper scissors cli game
+ */
 public class RockPaperScissors {
     private final int rockIndex = 0;
     private final int paperIndex = 1;

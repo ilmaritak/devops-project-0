@@ -17,6 +17,6 @@ public class Human extends Mammal {
      * implementation in human.
      */
     public void makeSound() {
-        System.out.println("Hei!");
+        System.out.println("Heipähei!");
     }
 }

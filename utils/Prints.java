@@ -1,16 +1,33 @@
 package utils;
 
 /**
- * Utility class that provides simplified wrapper methods
- * around {@link System#out} printing operations.
+ * Utility class providing simplified wrapper methods for
+ * standard output operations via {@link System#out}.
+ *
+ * <p>This class exposes static helper methods that delegate to
+ * {@link System#out#print(String)} and
+ * {@link System#out#println()} methods. It is designed to be
+ * used with static imports for cleaner and more readable code.</p>
+ *
+ * <p>Example usage with static import:</p>
+ * <pre>
+ * import static utils.Prints.*;
+ *
+ * print("Hello ");
+ * println("World");
+ * </pre>
+ *
+ * <p>This class cannot be instantiated.</p>
  */
 public final class Prints {
     private Prints() {
     }
 
     /**
-     * Prints a newline to the standard output.
-     * Equivalent to {@link System#out#println()}.
+     * Private constructor to prevent instantiation.
+     *
+     * <p>Since this class only contains static utility methods,
+     * creating instances is not allowed.</p>
      */
     public static void println() {
         System.out.println();

@@ -40,7 +40,35 @@ public class RockPaperScissors {
         System.out.println("Type eiher <rock>, <paper> or <scissors>");
     }
 
-    public void calculateWinner(int index1, int index2) {
-
+    public void calculateWinner(int palyerIndex, int pcIndex) {
+        switch (palyerIndex) {
+            case rockIndex:
+                if (pcIndex == rockIndex) {
+                    System.out.println("PC picked rock. Game is tie!");
+                } else if (pcIndex == paperIndex) {
+                    System.out.println("PC picked paper. You lost!");
+                } else {
+                    System.out.println("PC picked scissors. You won!");
+                }
+                break;
+            case paperIndex:
+                if (pcIndex == rockIndex) {
+                    System.out.println("PC picked rock. You won!");
+                } else if (pcIndex == paperIndex) {
+                    System.out.println("PC picked paper. Game is tie!");
+                } else {
+                    System.out.println("PC picked scissors. You lost!");
+                }
+                break;
+            default:
+                if (pcIndex == rockIndex) {
+                    System.out.println("PC picked rock. You Lost!");
+                } else if (pcIndex == paperIndex) {
+                    System.out.println("PC picked paper. You won!");
+                } else {
+                    System.out.println("PC picked scissors. Game is tie!");
+                }
+                break;
+        }
     }
 }

@@ -4,7 +4,10 @@ package utils;
  * Utility class that provides simplified wrapper methods
  * around {@link System#out} printing operations.
  */
-public class Prints {
+public final class Prints {
+    private Prints() {
+    }
+
     /**
      * Prints a newline to the standard output.
      * Equivalent to {@link System#out#println()}.

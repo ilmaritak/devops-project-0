@@ -13,6 +13,9 @@ public class App {
     }
 
     public static String getGreeting(String name) {
+        if (name == null) {
+            name = "Developer";
+        }
         return "Hello, " + name + "!";
     }
 }

@@ -37,6 +37,13 @@ public class RockPaperScissors {
         calculateWinner(yourIndex, pcIndex);
     }
 
+    /**
+     * Calculate random integer between fixed range
+     *
+     * @param min minium integer
+     * @param max maxium integer
+     * @return random integer between min and max
+     */
     public int getRandomIndex(int min, int max) {
         return ThreadLocalRandom.current().nextInt(min, max + 1);
     }

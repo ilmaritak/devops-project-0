@@ -2,6 +2,8 @@ package Mammals;
 
 public class Human extends Mammal {
 
+    private String name;
+
     /**
      * Human constructor. Calls super
      * constructor.

@@ -12,6 +12,9 @@ public class RockPaperScissors {
     private final int scissorIndex = 2;
     private final Console c = System.console();
 
+    /**
+     * This method runs the game loop
+     */
     public void playRockPaperScissors() {
         startGame();
 

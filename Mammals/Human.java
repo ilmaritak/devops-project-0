@@ -21,6 +21,6 @@ public class Human extends Mammal {
     }
 
     public void makeArt() {
-
+        System.out.println(this.name + "makes art");
     }
 }

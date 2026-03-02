@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.Console;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class RockPaperScissors {
     public static void playRockPaperScissors() {
@@ -11,6 +12,6 @@ public class RockPaperScissors {
     }
 
     public int getRandomIndex(int min, int max) {
-
+        return ThreadLocalRandom.current().nextInt(min, max + 1);
     }
 }

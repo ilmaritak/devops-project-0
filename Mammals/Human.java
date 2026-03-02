@@ -22,6 +22,9 @@ public class Human extends Mammal {
         System.out.println("Heipähei!");
     }
 
+    /**
+     * Human unique method.
+     */
     public void makeArt() {
         System.out.println(this.name + "makes art");
     }

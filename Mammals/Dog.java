@@ -17,7 +17,7 @@ public class Dog extends Mammal {
      * Mammal required method implementation.
      */
     public void makeSound() {
-        System.out.println("Vuf");
+        System.out.println(name + " says vuf.");
     }
 
     /**

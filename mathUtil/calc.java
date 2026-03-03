@@ -18,6 +18,8 @@ public class calc {
             tulos = Float.parseFloat(num1) - Float.parseFloat(num2);
         } else if (op.equals("*")) {
             tulos = Float.parseFloat(num1) * Float.parseFloat(num2);
+        } else if (op.equals("/")) {
+            tulos = Float.parseFloat(num1) / Float.parseFloat(num2);
         }
     }
 }

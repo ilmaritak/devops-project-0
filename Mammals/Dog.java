@@ -4,6 +4,11 @@ public class Dog extends Mammal {
 
     private String name;
 
+    /**
+     * Constructor for dog object.
+     * 
+     * @param name is the dogs name.
+     */
     public Dog(String name) {
         super(name);
     }

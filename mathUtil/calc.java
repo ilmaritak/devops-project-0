@@ -30,5 +30,6 @@ public class calc {
             System.out.println("Error: Invalid operator.");
         }
         System.out.println("Result: " + tulos);
+
     }
 }

@@ -9,5 +9,7 @@ public class calc {
         String num1 = scan.nextLine();
         System.out.println("Give operator (+, -, *, /):");
         String op = scan.nextLine();
+        System.out.println("Give number 2:");
+        String num2 = scan.nextLine();
     }
 }

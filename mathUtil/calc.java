@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class calc {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Give number 1:");
+        System.out.println("Give first number:");
         String num1 = scan.nextLine().trim();
         System.out.println("Give operator (+, -, *, /):");
         String op = scan.nextLine().trim();
-        System.out.println("Give number 2:");
+        System.out.println("Give second number:");
         String num2 = scan.nextLine().trim();
         float f1 = Float.parseFloat(num1);
         float f2 = Float.parseFloat(num2);

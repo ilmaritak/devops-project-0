@@ -23,6 +23,8 @@ public class calc {
             if (Float.isInfinite(tulos)) {
                 System.out.println("Error: Division by zero is not allowed.");
             }
+        } else {
+            System.out.println("Error: Invalid operator.");
         }
     }
 }

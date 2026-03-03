@@ -14,6 +14,8 @@ public class calc {
         Float tulos = 0.0f;
         if (op.equals("+")) {
             tulos = Float.parseFloat(num1) + Float.parseFloat(num2);
+        } else if (op.equals("-")) {
+            tulos = Float.parseFloat(num1) - Float.parseFloat(num2);
         }
     }
 }
